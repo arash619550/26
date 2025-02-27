@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(254, 240, 223, 0.6);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+}
+
+button,
+input {
+    border: none;
+    padding: 5px;
+}
+
+button {
+    background-color: white;
+}
