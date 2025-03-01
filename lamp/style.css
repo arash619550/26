@@ -1,0 +1,27 @@
+body {
+    overflow-y: hidden;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.on,
+.off {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+}
+
+/* .off {
+    opacity: 0;
+} */
